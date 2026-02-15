@@ -3,7 +3,7 @@
 **Omni-Tuner: Parameter-Efficient Adaptation for Source-Free Few-Shot Object Detection in Remote Sensing**
 
 <p align="center">
-  <img src="img/1.jpg" alt="Omni-Tuner main figure" width="800">
+  <img src="img/fig_cover.pdf" alt="Omni-Tuner main figure" width="800">
 </p>
 
 ## 📌 Overview
@@ -20,7 +20,7 @@ With a Swin-Large backbone, it adapts using **<3% trainable parameters** and fin
 
 ## 🧩 Environment Setup
 
-This project is based on MMDetection. Please follow `env/begin.md` **exactly** for environment setup.
+This project is based on MMDetection. Please follow [`env/begin.md`](env/begin.md) **exactly** for environment setup.
 
 > Note: the file contains the full installation steps matching MMDetection/MMCV versions.
 
@@ -74,3 +74,9 @@ bash tool_sh\run_target_dota.sh
 ## 📄 License
 
 Released under the [MIT License](LICENSE).
+
+## 🙏 Acknowledgements
+
+- [MMDetection](https://github.com/open-mmlab/mmdetection)
+- [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
+- [MONA](https://github.com/Leiyi-HU/mona)

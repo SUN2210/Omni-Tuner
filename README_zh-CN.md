@@ -20,7 +20,7 @@
 
 ## 🧩 环境配置
 
-本项目依托 MMDetection 框架，环境配置请**严格参考** `env/begin.md`。
+本项目依托 MMDetection 框架，环境配置请**严格参考** [`env/begin.md`](env/begin.md)。
 
 > 说明：该文件包含与 MMDetection/MMCV 版本匹配的完整环境安装步骤。
 
@@ -74,3 +74,9 @@ bash tool_sh\run_target_dota.sh
 ## 📄 许可证
 
 本项目采用 [MIT License](LICENSE)。
+
+## 🙏 致谢
+
+- [MMDetection](https://github.com/open-mmlab/mmdetection)
+- [Swin Transformer](https://github.com/microsoft/Swin-Transformer)
+- [MONA](https://github.com/Leiyi-HU/mona)
