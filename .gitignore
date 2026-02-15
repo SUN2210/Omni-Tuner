@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pth
+*.pt
+*.ckpt
+*.log
+*.tmp
+*.out
+wandb/
+runs/
+output/
+checkpoints/
+.env

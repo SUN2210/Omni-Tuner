@@ -1,0 +1,76 @@
+# Omni-Tuner
+
+**Omni-Tuner: Parameter-Efficient Adaptation for Source-Free Few-Shot Object Detection in Remote Sensing**
+
+<p align="center">
+  <img src="img/fig_cover.pdf" alt="Omni-Tuner main figure" width="800">
+</p>
+
+## 📌 Overview
+
+This project implements **Source-Free Few-Shot Domain Adaptive Object Detection (SF-FSDAOD)** for remote sensing.
+With a Swin-Large backbone, it adapts using **<3% trainable parameters** and finishes target-domain adaptation **within 3 minutes**, outperforming full fine-tuning.
+
+## ✨ Highlights
+
+- SF-FSDAOD tailored for remote-sensing object detection
+- Built on **MMDetection**
+- <3% trainable parameters on Swin-Large
+- Target-domain adaptation within 3 minutes, superior to full fine-tuning
+
+## 🧩 Environment Setup
+
+This project is based on MMDetection. Please follow `env/begin.md` **exactly** for environment setup.
+
+> Note: the file contains the full installation steps matching MMDetection/MMCV versions.
+
+## 🗂️ Dataset Preparation
+
+Place datasets under `dataset/`. The six datasets used in our experiments are already registered.
+
+Example structure:
+
+```
+dataset
+├── xview3c
+│   ├── VOC2007
+│   ├── ├── JPEGImages
+│   ├── ├── Annotations
+│   ├── └── ImageSets
+├── frrsd1c
+├── ssdd1c_fs
+└── ...
+```
+
+## 🚀 Quick Start (xView → DOTA)
+
+All launch scripts are in `tool_sh/`.
+
+### 1) Source-domain training
+
+```bash
+bash tool_sh\train_source_xview.sh
+```
+
+### 2) Offline source-domain extraction
+
+```bash
+bash tool_sh\extract_xview_all_in_one.sh
+```
+
+### 3) Target-domain fine-tuning
+
+```bash
+bash tool_sh\run_target_dota.sh
+```
+
+## 📁 Main Directories
+
+- `Omni_Tuner_configs/`: Omni-Tuner configs
+- `prototype_tools/`: prototype/statistics extraction tools
+- `tool_sh/`: one-click experiment scripts
+- `dataset/`: datasets
+
+## 📄 License
+
+Released under the [MIT License](LICENSE).
