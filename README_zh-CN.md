@@ -3,7 +3,7 @@
 **Omni-Tuner: Parameter-Efficient Adaptation for Source-Free Few-Shot Object Detection in Remote Sensing**
 
 <p align="center">
-  <img src="img/1.jpg" alt="Omni-Tuner main figure" width="800">
+  <img src="img/1.jpg" alt="Omni-Tuner main figure" width="600">
 </p>
 
 ## 📌 项目简介
