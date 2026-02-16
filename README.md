@@ -37,7 +37,7 @@ dataset
 │   ├── ├── JPEGImages
 │   ├── ├── Annotations
 │   ├── └── ImageSets
-├── frrsd1c
+├── hrrsd1c
 ├── ssdd1c_fs
 └── ...
 ```
