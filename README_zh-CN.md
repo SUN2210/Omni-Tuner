@@ -1,6 +1,6 @@
 # Omni-Tuner
 
-**Omni-Tuner: Parameter-Efficient Adaptation for Source-Free Few-Shot Object Detection in Remote Sensing**
+**Omni-Tuner: Parameter-Efficient Adaptation for Source-Free Few-Shot Object Detection in Earth Observation**
 
 <p align="center">
   <img src="img/1.jpg" alt="Omni-Tuner main figure" width="450">
@@ -24,9 +24,14 @@
 
 > 说明：该文件包含与 MMDetection/MMCV 版本匹配的完整环境安装步骤。
 
-## 🗂️ 数据集准备
+## 🗂️ 数据集
 
 数据集统一放置在 `dataset` 目录，实验所用 **6 个数据集已注册**。
+
+为便于数据集准备，你也可以直接下载我们整理好的完整数据集：
+
+- [Google Drive](https://drive.google.com/drive/folders/1S2XLjt6TqtOenr94vd254AayxeNqf1K_?usp=sharing)
+- [百度云（提取码：DATA）](https://pan.baidu.com/s/1lYdr06Wdo89NnTuDFXX2_Q?pwd=DATA)
 
 目录结构示例：
 

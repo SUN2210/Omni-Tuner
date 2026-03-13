@@ -1,6 +1,6 @@
 # Omni-Tuner
 
-**Omni-Tuner: Parameter-Efficient Adaptation for Source-Free Few-Shot Object Detection in Remote Sensing**
+**Omni-Tuner: Parameter-Efficient Adaptation for Source-Free Few-Shot Object Detection in Earth Observation**
 
 <p align="center">
   <img src="img/1.jpg" alt="Omni-Tuner main figure" width="450">
@@ -24,9 +24,14 @@ This project is based on MMDetection. Please follow [`env/begin.md`](env/begin.m
 
 > Note: the file contains the full installation steps matching MMDetection/MMCV versions.
 
-## 🗂️ Dataset Preparation
+## 🗂️ Dataset
 
 Place datasets under `dataset/`. The six datasets used in our experiments are already registered.
+
+For convenience, you can also download our pre-organized full datasets:
+
+- [Google Drive](https://drive.google.com/drive/folders/1S2XLjt6TqtOenr94vd254AayxeNqf1K_?usp=sharing)
+- [Baidu Yun (pwd: DATA)](https://pan.baidu.com/s/1lYdr06Wdo89NnTuDFXX2_Q?pwd=DATA)
 
 Example structure:
 
