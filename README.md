@@ -24,7 +24,7 @@ This project is based on MMDetection. Please follow [`env/begin.md`](env/begin.m
 
 > Note: the file contains the full installation steps matching MMDetection/MMCV versions.
 
-## 🗂️ Dataset
+## 📂 Dataset
 
 Place datasets under `dataset/`. The six datasets used in our experiments are already registered.
 
