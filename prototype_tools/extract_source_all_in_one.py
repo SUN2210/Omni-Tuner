@@ -113,7 +113,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--global-no-normalize-features', dest='global_normalize_features', action='store_false')
     parser.set_defaults(global_normalize_features=True)
     parser.add_argument('--global-l2-normalize', action='store_true')
-    parser.add_argument('--global-num-prototypes', type=int, default=12)
+    parser.add_argument('--global-num-prototypes', type=int, default=16)
     parser.add_argument('--global-sinkhorn-epochs', type=int, default=100)
     parser.add_argument('--global-sinkhorn-batch-size', type=int, default=512)
     parser.add_argument('--global-sinkhorn-queue-size', type=int, default=8192)

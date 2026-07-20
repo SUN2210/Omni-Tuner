@@ -66,7 +66,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument('--l2-normalize', action='store_true', help='为每个原型额外保存L2归一化副本。')
 
     # Sinkhorn 聚类参数
-    parser.add_argument('--num-prototypes', type=int, default=12, help='输出的图级原型数量。')
+    parser.add_argument('--num-prototypes', type=int, default=16, help='输出的图级原型数量。')
     parser.add_argument('--sinkhorn-epochs', type=int, default=100, help='Sinkhorn 原型学习的训练轮数。')
     parser.add_argument('--sinkhorn-batch-size', type=int, default=512, help='Sinkhorn 原型学习的批量大小。')
     parser.add_argument('--sinkhorn-queue-size', type=int, default=8192, help='Sinkhorn 原型学习的队列长度。')
